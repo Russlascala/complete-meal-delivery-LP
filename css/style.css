@@ -131,7 +131,7 @@ form{
    /*  text-shadow: 2px 2px 5px black; */
      text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px #000;
 }
-.imgTxt h3 {font-size:20px;text-shadow: #2f4858 3px 0px 0px, #2f4858 2.83487px 0.981584px 0px, #2f4858 2.35766px 1.85511px 0px, #2f4858 1.62091px 2.52441px 0px, #2f4858 0.705713px 2.91581px 0px, #2f4858 -0.287171px 2.98622px 0px, #2f4858 -1.24844px 2.72789px 0px, #2f4858 -2.07227px 2.16926px 0px, #2f4858 -2.66798px 1.37182px 0px, #2f4858 -2.96998px 0.42336px 0px, #2f4858 -2.94502px -0.571704px 0px, #2f4858 -2.59586px -1.50383px 0px, #2f4858 -1.96093px -2.27041px 0px, #2f4858 -1.11013px -2.78704px 0px, #2f4858 -0.137119px -2.99686px 0px, #2f4858 0.850987px -2.87677px 0px, #2f4858 1.74541px -2.43999px 0px, #2f4858 2.44769px -1.73459px 0px, #2f4858 2.88051px -0.838247px 0px;}
+.imgTxt h3 {font-size:17px;text-shadow: #2f4858 3px 0px 0px, #2f4858 2.83487px 0.981584px 0px, #2f4858 2.35766px 1.85511px 0px, #2f4858 1.62091px 2.52441px 0px, #2f4858 0.705713px 2.91581px 0px, #2f4858 -0.287171px 2.98622px 0px, #2f4858 -1.24844px 2.72789px 0px, #2f4858 -2.07227px 2.16926px 0px, #2f4858 -2.66798px 1.37182px 0px, #2f4858 -2.96998px 0.42336px 0px, #2f4858 -2.94502px -0.571704px 0px, #2f4858 -2.59586px -1.50383px 0px, #2f4858 -1.96093px -2.27041px 0px, #2f4858 -1.11013px -2.78704px 0px, #2f4858 -0.137119px -2.99686px 0px, #2f4858 0.850987px -2.87677px 0px, #2f4858 1.74541px -2.43999px 0px, #2f4858 2.44769px -1.73459px 0px, #2f4858 2.88051px -0.838247px 0px;}
 .imgTxt p {
     font-size:16px;
     text-shadow: #000000 2px 1px 0;
@@ -390,8 +390,11 @@ SUBMIT PAGE STYLES
 }
 
 
-.adDisclose{    font-size: 12px;
-    display: inline-flex;}
+.adDisclose{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
 
 .ratingImg{
     display: block;
@@ -404,7 +407,7 @@ SUBMIT PAGE STYLES
 #page-welcome{
     text-align: center;
     margin: 10px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
 }
 #desktopHeading {
@@ -639,7 +642,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     #leftTopTxt {
         margin-top: 36px;
     }
-
+    .imgTxt h3 {font-size:22px;}
     
     /* Content After Form Styles  */
 
