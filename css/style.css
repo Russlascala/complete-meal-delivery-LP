@@ -1,0 +1,739 @@
+body{
+    font-family:'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo-img{
+    width:55%;
+    display: block;
+    margin:5px auto;
+
+}
+h2, h3, h4 {
+    color:#2f4858;
+}
+.line{
+    height: 2px;
+    background: #f7971c;
+    width:100%;
+}
+#leftTopTxt{
+    margin-top:15px;
+    text-align: center;
+    /*  text-shadow: #283250 1px 0 10px; */
+     text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+    color:#fff;
+    font-size:25px;
+} 
+.rightTxtBox{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+#right-txt{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    /* display: none; */
+    display:block;
+}
+#right-txt span{
+    color: #f7971c;
+}
+.nowDeliv{
+    margin-bottom:0;
+    display: none;
+}
+
+#topStart{
+    display: block;
+    margin: 5px auto;
+}
+
+
+.view{
+     background-image: url(../imgs/cook-dark.jpg);
+    /*background-repeat: no-repeat;
+    background-size: auto; */
+    /* height: 1000px; */
+       /* The image used */
+    /* Set a specific height */
+   /*  height:740px;  */
+    /* Create the parallax scrolling effect */
+   /*  background-attachment: fixed; */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 100%;
+}
+
+/*  Start Form Styles */
+.formContainer{
+    margin-top: 8px;
+}
+form{
+    /* background: rgba(255, 255, 255, 0.5)!important; */
+    background: #e4e4e4!important;
+
+}
+
+.advocatesTitle{
+    margin-bottom: 0;
+    margin-top: 40px;
+    te 
+}
+
+.form-parts{
+    margin-top: 10px;
+}
+
+#submitBtn{
+    font-weight: bold;
+    color:#000;
+    background: #f7971c;
+    font-size:18px;
+}
+
+.formBtn:hover {
+  transition : 0.3s;
+  box-shadow : 0px 0px 1px 6px #00A607;
+  cursor : pointer;
+}
+
+#secureImg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom: 10px
+}
+
+#disclaim{
+    margin-bottom: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #000;
+    margin-top: 15px;
+    font-size:10px;
+}
+/* left of form styles */
+.tableStyle{
+    color:#fff;
+    font-size: 25px;
+    /* text-shadow: #000 1px 0 10px; */
+   /*  text-shadow: 2px 2px 5px black; */
+     text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px #000;
+}
+
+.imgTxt{
+    color:#fff;
+    /* text-shadow: #000 1px 0 10px; */
+   /*  text-shadow: 2px 2px 5px black; */
+     text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px #000;
+}
+.imgTxt h3 {font-size:20px;text-shadow: #2f4858 3px 0px 0px, #2f4858 2.83487px 0.981584px 0px, #2f4858 2.35766px 1.85511px 0px, #2f4858 1.62091px 2.52441px 0px, #2f4858 0.705713px 2.91581px 0px, #2f4858 -0.287171px 2.98622px 0px, #2f4858 -1.24844px 2.72789px 0px, #2f4858 -2.07227px 2.16926px 0px, #2f4858 -2.66798px 1.37182px 0px, #2f4858 -2.96998px 0.42336px 0px, #2f4858 -2.94502px -0.571704px 0px, #2f4858 -2.59586px -1.50383px 0px, #2f4858 -1.96093px -2.27041px 0px, #2f4858 -1.11013px -2.78704px 0px, #2f4858 -0.137119px -2.99686px 0px, #2f4858 0.850987px -2.87677px 0px, #2f4858 1.74541px -2.43999px 0px, #2f4858 2.44769px -1.73459px 0px, #2f4858 2.88051px -0.838247px 0px;}
+.imgTxt p {
+    font-size:16px;
+    text-shadow: #000000 2px 1px 0;
+}
+
+#saveOn{
+    margin-bottom: 15px!important;
+}
+
+#arrowImg{
+        display: none;
+     }
+/* End Form Styles */
+
+
+
+
+/* Content After Form Styles  */
+.content-afterform{
+    margin-top: 50px;
+    text-align:center;
+    margin-bottom:50px;
+}
+.icons-top{
+    color:#00b3d5;
+    font-size:40px;
+    display: inline-block;
+}
+#three-bullets{
+    margin-top:25px;
+}
+.startBtn{
+    background: #f7971c;
+    color: #000!important;
+    font-weight: bold;
+    width: 260px;
+    display: block;
+    margin:0 auto;
+}
+.startBtn:hover{
+    background: #00b3d5;
+    color: #fff!important;
+}
+#topStart{
+    width:200px;
+}
+/* End Content After Form Styles  */
+
+/* Our Experts secion and text section */
+.nameTxt{
+    /* display: flex; */
+    margin-left:15px;
+}
+.expertsContent{
+    display: flex;
+    flex-direction: row;
+    margin-top:1rem;
+    align-self: center
+}
+.expertsImgs{
+    border-radius: 100%;
+    width: 78px!important;
+    height: 78px!important;
+    
+}
+.expertName{
+    margin-bottom:0px;
+    font-weight: bold;
+    color: #00b3d5;
+}
+
+.expertTxt{
+    font-size: 13px;
+}
+
+
+/* Start Of Scroll Section */
+
+.sectionScroll{
+    background-image: url(../imgs/ImgScroll.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 50px 2px rgba(1, 1, 1, 0.6);
+
+}
+
+.block-color{
+    background:rgba(0, 0, 0, 0.781);;
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding:15px;
+}
+
+/* END Of Scroll Section */
+
+/* Start of info blocks */
+.accordion-section .panel-default .panel-heading {
+    border: 0;
+    background: #eaeaea;
+    padding: 0;
+    margin-top:30px;
+}
+
+.panel-title{
+    margin-bottom: 0;
+}
+
+.accordion-section h2{
+    margin-top:50px;
+}
+
+.panel-heading{
+    color: #283250;
+}
+
+.panel-heading h3 {
+    font-size: 1.25rem;
+}
+
+.mealTypeList{
+    list-style: none;
+}
+.mealTypeList ul{margin-right: 5px;}
+.mealTypeList li:before{
+    
+    content: '\f2e7';
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight:900;
+    margin:0 5px 0 -15px;
+    color: #00b3d5;
+}
+
+.servicesHeading{
+    margin-bottom:0;
+}
+/* End of info blocks */
+
+/*   footer section */
+/* section logo above footer */
+#sectionFive{
+    background-color: #e6e6e6;
+   
+}
+/* footer */
+#footerLogo{
+    width:60%;
+    margin:15px;
+}
+.lineFade{ 
+    height:1px;
+    background: #e4e4e4;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#e4e4e4), to(#e4e4e4), color-stop(50%, #f7971c));
+}
+/*   end third section */
+
+/* Subscribe css */
+.subSection{
+    padding: 30px 0 30px 0;;
+    text-align: center;
+    margin-top:30px;
+    background-color: #e6e6e6;
+}
+.subBlock{
+    display: block;
+    margin:0 auto;
+}
+.subTitle{
+    font-size:20px;
+}
+.well{
+    background-color:#dcdcdc;
+}
+.free {
+    text-transform: uppercase;
+}
+.input-group {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#inputSub{
+    margin-bottom:10px;
+}
+#subBtn{
+    background-color:#f7971c;
+    color:#283250;
+    font-weight:bold;
+}
+#subBtn:hover{
+    background: #00b3d5;
+    color: #fff!important;
+}
+
+input.btn.btn-lg,
+input.btn.btn-lg:focus {
+    outline: none;
+    width: 100%;
+    height: 60px;
+}
+button.btn {
+    width: 100%;
+    height: 60px;
+    
+}
+.promise {
+    color: #999;
+    margin-bottom:20px;
+}
+
+.Teaser{
+    font-size:16px;
+}
+
+
+footer{
+    background-color: #e6e6e6;
+    color: black;
+}
+
+footer a{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #000;
+}
+footer a:hover{
+    color: #283250;
+}
+
+#altLinks{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+#copyRight{
+    font-size: 12px;
+}
+/*   end footer section */
+
+
+/*
+####################################################
+SUBMIT PAGE STYLES
+####################################################
+*/
+
+/* new styles */
+.ratingNumber{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom:0;
+}
+
+
+.adDisclose{    font-size: 12px;
+    display: inline-flex;}
+
+.ratingImg{
+    display: block;
+    margin: auto;
+}
+.offeralign{
+    align-items: center;
+}
+/* Old styles */
+#page-welcome{
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#desktopHeading {
+    display:none;
+}
+
+#mobileHeading{
+    display: inline-block;
+}
+
+.showContentMobile{
+ display: inline-block;
+}
+
+.showContentDesktop{
+    display:none;
+}
+
+.border-blocks {
+    border:2px solid black;
+    margin-bottom:10px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+.list-num{
+    text-align: right;
+    margin-top:auto;
+    margin-bottom: auto; 
+    font-size: 30px;
+}
+
+.list-num p{
+    /* background-color: #00A607;
+    text-align: center;
+    border-radius: 100%; */
+    
+    background: #00b3d5;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    /* margin-right: 15px; */
+    text-align: center;
+    width: 1.6em;
+    display:none;
+}
+
+.offerTopHeading{
+    display:none;
+}
+
+/* #first-block{
+    margin-top:26px;
+} */
+.listing-block {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.listing-title{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.listing-title a{
+    color: #1a0dab;
+    /* text-decoration: underline; */
+}
+.listing-title a:visited {
+    color: #609;
+}
+
+.listing-title a span:hover{
+    text-decoration: underline;
+}
+
+.listing-url{
+    color: #006621;
+    margin-bottom:0;
+    /* overflow: hidden; */
+    overflow-wrap: break-word;
+}
+
+.offerTopHeading{
+    font-weight: bold;
+    margin-bottom:0;
+    text-align: center;
+}
+.cardImgs{
+    max-width: 260px;
+    display: block;
+    margin: 5px auto;
+    width: 100%;
+
+}
+.ctaBtn, .ratingImg {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+
+/* Ribbon Styles */
+.wrapper {
+    margin: 20px auto;
+    width: auto;
+    height: auto;
+    background: white;
+   /*  border-radius: 10px; */
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    -moz-box-shadow:    0px 0px 8px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 8px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 90;
+}
+
+.ribbon-wrapper-green {
+    /* width: 85px;
+    height: 88px; */
+    width: 140px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.ribbon-green {
+    font: bold 12px Sans-Serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 0px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform:    rotate(45deg);
+    -ms-transform:     rotate(45deg);
+    -o-transform:      rotate(45deg);
+    position: relative;
+    z-index: 30;
+    padding: 7px 0;
+    left: 5px;
+    top: 12px;
+    width: 220px;
+    background-color: #007ABC;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#007ABC), to(#325DA4)); 
+    background-image: -webkit-linear-gradient(top, #007ABC, #325DA4); 
+    background-image:    -moz-linear-gradient(top, #007ABC, #325DA4); 
+    background-image:     -ms-linear-gradient(top, #007ABC, #325DA4); 
+    background-image:      -o-linear-gradient(top, #007ABC, #325DA4); 
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-green:before, .ribbon-green:after {
+    content: "";
+    border-top:   3px solid #6e8900;   
+    border-left:  3px solid transparent;
+    border-right: 3px solid transparent;
+    position:absolute;
+    bottom: -3px;
+}
+
+.ribbon-green:before {
+    left: 0;
+}
+.ribbon-green:after {
+    right: 0;
+}
+/* End Ribbon Styles */
+
+/*
+####################################################
+END SUBMIT PAGE STYLES 
+####################################################
+*/
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+ 
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) { 
+    /* Form Styles */ 
+
+    .formContainer{
+        margin-top: 18px;
+    }
+    /* Content After Form Styles  */
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    #logo-img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left:0;
+    }
+    #topStart{
+        margin-right:0;
+        margin-bottom:10px
+    }
+
+    #right-txt{
+        display: block;
+    }
+    .nowDeliv{
+        display: block;
+    }
+    .formContainer{
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+    #leftTopTxt {
+        margin-top: 36px;
+    }
+
+    
+    /* Content After Form Styles  */
+
+    /*  submit page style */
+    #page-welcome{
+        font-size:25px;
+        font-weight:bold;
+    }
+
+    #desktopHeading {
+        display: inline-block;
+    
+    }
+
+    #mobileHeading{
+        display:none;
+        
+    }
+
+    .showContentMobile{
+ display:none;
+}
+
+.showContentDesktop{
+    display: inline-block;
+}
+
+    .list-num p{
+        display: block;
+    }
+    .offerTopHeading{
+        display: block;
+    }
+
+    /* Footer Styles - Both Pages */
+    #footerLogo{
+        width:30%;
+    }
+
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* Form Styles */
+     #leftTopTxt{
+        font-size:30px;
+        margin-top: 50px;
+    }
+    .formContainer{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .rightTxtBox{
+        margin-top: 60px;
+        margin-bottom:60px;
+    }
+  
+    #arrowImg{
+        display: block;
+        width: 369px;
+        position: absolute;
+        top: 11%;
+        left: 40%;
+    }
+
+    
+    /* Content After Form Styles  */
+    #footerLogo{
+        width:40%;
+    }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* Form Styles */ 
+    .formContainer, #leftTopTxt{
+        margin-top: 60px;
+    }
+
+
+    
+    /* Content After Form Styles  */
+
+}
+ 
+ 
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
