@@ -403,6 +403,7 @@ SUBMIT PAGE STYLES
 }
 .offeralign{
     align-items: center;
+    padding:35px;
 }
 /* Old styles */
 #page-welcome{
