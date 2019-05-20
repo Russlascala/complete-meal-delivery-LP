@@ -401,10 +401,23 @@ SUBMIT PAGE STYLES
 .ratingImg{
     display: block;
     margin: auto;
+    width: 90px;
 }
 .offeralign{
     align-items: center;
-    padding:35px;
+    padding:15px;
+}
+.hideListMobile{
+    display: none;
+}
+.showListMobile{
+    display: list-item;
+}
+.ratingNumber{
+    display: none;
+}
+.readMoreLink{
+    display: block;
 }
 /* Old styles */
 #page-welcome{
@@ -651,6 +664,18 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     /* Content After Form Styles  */
 
     /*  submit page style */
+    .hideListMobile{
+        display: table-row;
+    }
+    .ratingNumber{
+        display: block;
+    }
+    .readMoreLink{
+        display: none;
+    }
+    .offeralign {
+        padding: 35px;
+    }
     #page-welcome{
         font-size:25px;
         font-weight:bold;
